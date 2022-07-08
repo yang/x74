@@ -1,0 +1,24 @@
+.root {
+  width: 65px;
+  height: 65px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  margin: 0px;
+}
+.img__gpQhR {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 65px;
+  height: 65px;
+  display: block !important;
+  top: 0px;
+  left: 0px;
+}
+.img__gpQhR > picture > img {
+  object-fit: cover;
+}
+.img__gpQhR > .__wab_img-spacer > img {
+  object-fit: cover;
+}

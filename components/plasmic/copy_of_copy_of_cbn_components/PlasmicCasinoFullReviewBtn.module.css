@@ -1,0 +1,42 @@
+.root {
+  flex-direction: row;
+  background: rgba(16, 43, 67, 1);
+  width: 190px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  border-radius: 100px;
+  padding: 5px 28px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 10px;
+}
+@media (max-width: 1199px) {
+  .root {
+    width: 226px;
+  }
+}
+.text {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 1;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  white-space: pre;
+  user-select: none;
+}

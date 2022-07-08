@@ -1,0 +1,55 @@
+.root {
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: relative;
+}
+.normal {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #1d8efa;
+  width: 17.179px;
+  height: 17.424px;
+  display: block;
+  top: 2px;
+  left: 0px;
+}
+.normalbad {
+  display: none;
+}
+.normalgood {
+  display: none;
+}
+.svg__wYzKr {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #4ea327;
+  width: 19.66px;
+  height: 19.94px;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+.svgbad__wYzKrDyxj5 {
+  display: none;
+}
+.svggood__wYzKrYGsK {
+  display: block;
+}
+.svg__fG3N {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #dd7272;
+  transform: translate(0.05900000000000016px, 0.2879999999999998px);
+  width: 15px;
+  height: 14.877px;
+  top: 2px;
+  left: 3px;
+  display: none;
+}
+.svgbad__fG3NDyxj5 {
+  display: block;
+}

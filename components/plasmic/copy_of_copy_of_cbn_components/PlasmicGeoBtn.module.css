@@ -1,0 +1,64 @@
+.root {
+  flex-direction: row;
+  width: 200px;
+  height: 36px;
+  display: flex;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 8px;
+}
+.rootsmall > :global(.__wab_flex-container) {
+  align-items: center;
+  justify-content: flex-start;
+}
+.cpaBtn:global(.__wab_instance) {
+  position: relative;
+  align-self: stretch;
+}
+.cpaBtnsmall:global(.__wab_instance) {
+  height: 26px;
+  align-self: center;
+}
+.slotTargetCpaBtnsmall {
+  user-select: none;
+  white-space: pre;
+  text-align: center;
+  font-size: 16px;
+}
+.geoCheck:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
+.geoChecksmall:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.img___5XIE {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 26px;
+  height: 26px;
+  display: block !important;
+  top: auto;
+  left: auto;
+  overflow: hidden;
+  border-radius: 100px;
+  border: 2px solid #113659;
+}
+.img___5XIE > picture > img {
+  object-fit: cover;
+}
+.img___5XIE > .__wab_img-spacer > img {
+  object-fit: cover;
+}

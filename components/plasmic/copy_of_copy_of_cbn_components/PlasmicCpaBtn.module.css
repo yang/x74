@@ -1,0 +1,40 @@
+.root {
+  flex-direction: row;
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(261deg, #fcc83e 15%, rgba(247, 175, 49, 1) 100%)
+    0% 0% / 100% 100% no-repeat;
+  min-width: 136px;
+  border-radius: 100px;
+  padding: 10px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 0px);
+  width: calc(100% + 0px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 0px;
+}
+.root:hover {
+  background: linear-gradient(85deg, #fcc83e 15%, #f7af31 100%) 0% 0% / 100%
+    100% no-repeat;
+}
+.slotTargetCpaBtn {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: rgba(4, 28, 51, 1);
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  white-space: pre;
+}

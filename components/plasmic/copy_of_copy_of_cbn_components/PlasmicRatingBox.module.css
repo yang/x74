@@ -1,0 +1,132 @@
+.root {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding-top: 2px;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 4px;
+}
+.roothorisonatal {
+  display: flex;
+  flex-direction: row;
+}
+.roothorisonatal > :global(.__wab_flex-container) {
+  flex-direction: row;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.roothorisonatal > :global(.__wab_flex-container) > *,
+.roothorisonatal > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.roothorisonatal > :global(.__wab_flex-container) > picture > img,
+.roothorisonatal
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 4px;
+  margin-top: 0px;
+}
+.stars:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+  display: block;
+}
+.starshorisonatal:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.frame1845 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame1845horisonatal {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.frame1915 {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.frame1915 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: calc(0px - 2px);
+  width: calc(100% + 2px);
+}
+.frame1915 > :global(.__wab_flex-container) > *,
+.frame1915 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame1915 > :global(.__wab_flex-container) > picture > img,
+.frame1915
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 2px;
+}
+.slotTargetSlot20 {
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(17, 56, 92, 1);
+  text-align: center;
+  line-height: 0.75;
+  letter-spacing: 0em;
+}
+.slotTargetSlot20horisonatal {
+  font-size: 24px;
+}
+.text___6EoJr {
+  display: block;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 0.75;
+  color: rgba(41, 86, 125, 1);
+  position: relative;
+}
+.texthorisonatal___6EoJr2PBXz {
+  font-size: 16px;
+}
+.text___45DxK {
+  display: block;
+  font-size: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  color: rgba(41, 86, 125, 1);
+  position: relative;
+}
+@media (max-width: 1400px) {
+  .text___45DxK {
+    white-space: pre;
+    user-select: none;
+  }
+}

@@ -1,0 +1,15 @@
+.root {
+  object-fit: cover;
+  max-width: 100%;
+  transform: translate(0.15500000000000114px, 0px);
+  width: 15px;
+  height: 15px;
+  display: block !important;
+  position: relative;
+}
+.root > picture > img {
+  object-fit: cover;
+}
+.root > .__wab_img-spacer > img {
+  object-fit: cover;
+}

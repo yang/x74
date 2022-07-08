@@ -1,0 +1,145 @@
+.root {
+  width: 290px;
+  height: 100%;
+  display: block;
+  position: relative;
+  min-height: 0;
+}
+.logoBrandName {
+  flex-direction: column;
+  background: rgba(2, 12, 0, 1);
+  border-top-left-radius: 6px;
+  width: 290px;
+  height: 170px;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  min-width: 242px;
+  max-width: 290px;
+  flex-shrink: 0;
+  padding: 0px 64px 18px;
+}
+.logoBrandName > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: calc(0px - 23px);
+  height: calc(100% + 23px);
+}
+.logoBrandName > :global(.__wab_flex-container) > *,
+.logoBrandName > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.logoBrandName > :global(.__wab_flex-container) > picture > img,
+.logoBrandName
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 23px;
+}
+@media (max-width: 1400px) {
+  .logoBrandName {
+    width: 242px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+.logoPlacerX58 {
+  background: none;
+  width: auto;
+  height: 58px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+.slotTargetBrandImage {
+  text-align: center;
+}
+.img__yCdTk {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  left: auto;
+  top: auto;
+}
+.img__yCdTk > picture > img {
+  object-fit: cover;
+}
+.img__yCdTk > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.slotTargetSlot22 {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 100%;
+  letter-spacing: 0em;
+}
+.badgePlace:global(.__wab_instance) {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: none;
+}
+.badgePlaceplace:global(.__wab_instance) {
+  display: block;
+}
+.badgePlaceplace_badge:global(.__wab_instance) {
+  display: block;
+}
+.casinoBadge:global(.__wab_instance) {
+  position: absolute;
+  top: 52px;
+  left: 258px;
+  width: 65px;
+  height: 65px;
+  z-index: 1;
+  display: none;
+}
+@media (max-width: 1920px) {
+  .casinoBadge:global(.__wab_instance) {
+    display: none;
+  }
+}
+@media (max-width: 1199px) {
+  .casinoBadge:global(.__wab_instance) {
+    display: none;
+  }
+}
+@media (max-width: 1043px) {
+  .casinoBadge:global(.__wab_instance) {
+    left: 220px;
+  }
+}
+.casinoBadgebadge:global(.__wab_instance) {
+  display: block;
+}
+.casinoBadgeplace:global(.__wab_instance) {
+  display: none;
+}
+.casinoBadgeplace_badge:global(.__wab_instance) {
+  display: block;
+}
+.img___1Y3BM {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 65px;
+  height: 65px;
+  display: block !important;
+  top: 0px;
+  left: 0px;
+}
+.img___1Y3BM > picture > img {
+  object-fit: cover;
+}
+.img___1Y3BM > .__wab_img-spacer > img {
+  object-fit: cover;
+}

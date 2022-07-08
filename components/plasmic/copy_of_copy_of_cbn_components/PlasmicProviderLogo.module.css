@@ -1,0 +1,26 @@
+.root {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(221, 221, 221, 1);
+  width: 104px;
+  height: 38px;
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-right: 12px;
+  padding-left: 12px;
+  position: relative;
+  border-radius: 6px;
+}
+.img__snWms {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+}
+.img__snWms > picture > img {
+  object-fit: cover;
+}
+.img__snWms > .__wab_img-spacer > img {
+  object-fit: cover;
+}

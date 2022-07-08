@@ -1,0 +1,30 @@
+.root {
+  width: 34px;
+  height: 26px;
+  display: block;
+  position: relative;
+}
+.img___7SmBn {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 26px;
+  height: 26px;
+  display: block !important;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  border-radius: 100px;
+  border: 2px solid #113659;
+}
+.img___7SmBn > picture > img {
+  object-fit: cover;
+}
+.img___7SmBn > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.checkMark:global(.__wab_instance) {
+  position: absolute;
+  top: 27.96%;
+  left: 61.76%;
+}

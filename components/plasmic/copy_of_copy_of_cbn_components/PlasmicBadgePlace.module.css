@@ -1,0 +1,136 @@
+.root {
+  width: 31px;
+  height: 39px;
+  display: block;
+  position: relative;
+}
+.img__vAll9 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  filter: drop-shadow(0px 10px 13px rgba(0, 0, 0, 0.079));
+  width: 30.478px;
+  height: 38.538px;
+  display: block !important;
+  top: 0px;
+  left: 0px;
+}
+.img__vAll9 > picture > img {
+  object-fit: cover;
+}
+.img__vAll9 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img_2__vAll9UtCd0 {
+  display: none !important;
+}
+.img_3__vAll9VHupk {
+  display: none !important;
+}
+.text {
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0em;
+  line-height: 0.708;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 10px;
+  left: 35.48%;
+}
+.text_2 {
+  display: none;
+}
+.text_3 {
+  display: none;
+}
+.property12nd {
+  width: 31px;
+  height: 39px;
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.property12nd_3 {
+  display: none;
+}
+.img__yfd5Y {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  filter: drop-shadow(0px 10px 13px rgba(0, 0, 0, 0.079));
+  width: 30.478px;
+  height: 38.538px;
+  top: 0px;
+  left: 0px;
+  display: none !important;
+}
+.img__yfd5Y > picture > img {
+  object-fit: cover;
+}
+.img__yfd5Y > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img_2__yfd5YUtCd0 {
+  display: block !important;
+}
+._1 {
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0em;
+  line-height: 0.708;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 10px;
+  left: 36.09%;
+}
+.property13rd {
+  width: 31px;
+  height: 39px;
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.img__sowdG {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  filter: drop-shadow(0px 10px 13px rgba(0, 0, 0, 0.079));
+  width: 30.478px;
+  height: 38.538px;
+  top: 0px;
+  left: 0px;
+  display: none !important;
+}
+.img__sowdG > picture > img {
+  object-fit: cover;
+}
+.img__sowdG > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img_3__sowdGvHupk {
+  display: block !important;
+}
+._2 {
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0em;
+  line-height: 0.708;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 10px;
+  left: 36.09%;
+}

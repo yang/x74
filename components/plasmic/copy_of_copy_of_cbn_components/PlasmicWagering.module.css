@@ -1,0 +1,73 @@
+.root {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 4px;
+}
+.img {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 25px;
+  height: 25px;
+  display: block !important;
+  flex-shrink: 0;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.frame1588 {
+  width: 43px;
+  height: 33px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.freeBox {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.slotTargetWager {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(17, 56, 92, 1);
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+.text {
+  display: block;
+  font-size: 10px;
+  text-transform: capitalize;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  color: rgba(41, 86, 125, 1);
+  position: absolute;
+  top: 21px;
+  left: 0px;
+  right: 0px;
+  user-select: none;
+  white-space: pre;
+}
